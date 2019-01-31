@@ -6,7 +6,8 @@
   "scripts": {
     "unit_test": "gulp unit_test",
     "lint": "gulp lint",
-    "no.onlys": "gulp no.onlys"
+    "no.onlys": "gulp no.onlys",
+    "ci-publish": "ci-publish"
   },
   "author": "Codefresh <admin@codefresh.io> (http://codefresh.io)",
   "license": "ISC",
