@@ -19,3 +19,12 @@ steps:
     image: codefresh/node-tester-image:8.1.4
     commands:
       - yarn run unit_test
+
+  deploy_to_npm:
+    title: Publishing To Npm
+    image: codefresh/npm-publish:master
+    commands:
+      - NPM_TOKEN=${{NPM_TOKEN}} npm run ci-publish
+    when:
+      branch:
+        only: [ master ]
