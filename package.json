@@ -13,6 +13,7 @@
   "license": "ISC",
   "devDependencies": {
     "chai": "^3.0.0",
+    "dockerode": "^2.5.8",
     "gulp": "^3.9.1",
     "gulp-coveralls": "^0.1.4",
     "gulp-env": "^0.2.0",
