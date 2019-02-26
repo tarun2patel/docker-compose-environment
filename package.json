@@ -1,6 +1,6 @@
 {
   "name": "@codefresh-io/docker-compose-environment",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "a representation of an environment spinned up with docker-compose",
   "main": "index.js",
   "scripts": {
