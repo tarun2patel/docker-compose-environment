@@ -1,13 +1,12 @@
 {
   "name": "@codefresh-io/docker-compose-environment",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "a representation of an environment spinned up with docker-compose",
   "main": "index.js",
   "scripts": {
     "unit_test": "gulp unit_test",
     "lint": "gulp lint",
-    "no.onlys": "gulp no.onlys",
-    "ci-publish": "ci-publish"
+    "no.onlys": "gulp no.onlys"
   },
   "author": "Codefresh <admin@codefresh.io> (http://codefresh.io)",
   "license": "ISC",
@@ -30,9 +29,8 @@
     "sinon-chai": "^2.8.0"
   },
   "dependencies": {
-    "cf-errors": "0.1.3",
-    "ci-publish": "^1.3.0",
-    "lodash": "^3.10.1",
+    "cf-errors": "^0.1.15",
+    "lodash": "4.17.20",
     "q": "^1.4.1"
   },
   "peerDependencies": {
