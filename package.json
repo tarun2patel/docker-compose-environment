@@ -31,7 +31,7 @@
   "dependencies": {
     "cf-errors": "^0.1.15",
     "lodash": "4.17.20",
-    "q": "^1.4.1"
+    "q": "^1.5.1"
   },
   "peerDependencies": {
     "dockerode": "^2.2.3"
