@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "cf-errors": "^0.1.15",
-    "lodash": "4.17.20",
+    "lodash": "4.17.21",
     "q": "^1.4.1"
   },
   "peerDependencies": {
