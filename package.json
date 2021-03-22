@@ -1,6 +1,6 @@
 {
   "name": "@codefresh-io/docker-compose-environment",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "a representation of an environment spinned up with docker-compose",
   "main": "index.js",
   "scripts": {
@@ -29,8 +29,8 @@
     "sinon-chai": "^2.8.0"
   },
   "dependencies": {
-    "cf-errors": "^0.1.15",
-    "lodash": "4.17.20",
+    "cf-errors": "^0.1.16",
+    "lodash": "^4.17.21",
     "q": "^1.4.1"
   },
   "peerDependencies": {
