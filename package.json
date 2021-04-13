@@ -1,5 +1,5 @@
 {
-  "name": "@codefresh-io/docker-compose-environment",
+  "name": "@tarun2patel/docker-compose-environment",
   "version": "0.0.10",
   "description": "a representation of an environment spinned up with docker-compose",
   "main": "index.js",
